@@ -3,6 +3,12 @@
 ### npm install
 ### npm run dev
 
+### Details about features
+* When no filter or search condition is given, app will render all the products
+* search and filter works independently (only those items will be shown which satisfy both filter and search condition )
+* search is not case-sensitive
+* Images are set to load lazily
+
 ## stock photos taken from pexels
 ## https://www.pexels.com/
 
@@ -13,3 +19,4 @@
 
 
 ## Read about methods for array and string from -> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+
