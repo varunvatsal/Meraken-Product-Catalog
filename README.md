@@ -8,6 +8,7 @@
 * search and filter works independently (only those items will be shown which satisfy both filter and search condition )
 * search is not case-sensitive
 * Images are set to load lazily
+* Item description opens in a different route using react-router-dom
 
 #### stock photos taken from pexels -> https://www.pexels.com/
 
