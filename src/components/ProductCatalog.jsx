@@ -4,15 +4,19 @@ import ProductItem from './ProductItem'
 import Search from './Search'
 import Accordion from 'react-bootstrap/Accordion';
 import style from '../css/productCatalog.module.css'
-import CardGroup from 'react-bootstrap/CardGroup';
 import Row from 'react-bootstrap/Row';
 import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const ProductCatalog = () => {
     let [productList, setProductList] = useState([])
     let [allowedProduct, setAllowedProduct] = useState([])
     let [totalCatagory, setTotalCatagory] = useState(null)
     let [loading, setLoading] = useState(true)
+
+    let navigate = useNavigate()
 
     useEffect(() => {
       fetch("https://run.mocky.io/v3/a7f83c41-4399-46dc-aff7-690ec7a3d486")
@@ -46,8 +50,16 @@ const ProductCatalog = () => {
     }
   return (
     <>
-        <h1 className={style.heading}>Product Catalog</h1>
+        <h1 className={style.heading}>PRODUCT CATALOG</h1>
         <Search product={{productList, setProductList}}/>
+        <br />
+        <nav>
+            <div className="d-grid gap-2">
+              <Button variant="primary" size="lg" onClick={() => {navigate('/cart')}}>
+                GO TO CART
+              </Button>
+            </div>
+        </nav>
         <br />
         <Accordion defaultActiveKey="0">
             <Accordion.Item eventKey="0">

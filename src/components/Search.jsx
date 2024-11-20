@@ -3,7 +3,6 @@ import Form from 'react-bootstrap/Form';
 
 const Search = ({product}) => {
   let {productList, setProductList} = product
-  console.log(productList)
   let [searchVal, setSearchVal] = useState("")
   let handleChange = (e) => {
     if(e.target.value === ""){
