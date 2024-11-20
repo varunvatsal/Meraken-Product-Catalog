@@ -1,0 +1,181 @@
+{
+    "items": [
+                { 
+                "id": 1, 
+                "name": "Wireless Headphones", 
+                "category": "Electronics", 
+                "price": 99.99, 
+                "image": "https://images.pexels.com/photos/8038334/pexels-photo-8038334.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", 
+                "description": "High-quality wireless headphones with noise cancellation." 
+                }, 
+                { 
+                "id": 2, 
+                "name": "Smart Watch", 
+                "category": "Electronics", 
+                "price": 199.99, 
+                "image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", 
+                "description": "Stay connected on the go with this stylish smart watch." 
+                },
+                {
+                "id": 3,
+                "name": "Wireless Earbuds",
+                "category": "Electronics",
+                "price": 49.99,
+                "image": "https://images.pexels.com/photos/29407272/pexels-photo-29407272/free-photo-of-black-wireless-earbuds-in-charging-case-on-yellow.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                "description": "Compact and high-quality wireless earbuds with noise cancellation."
+                },
+                {
+                "id": 4,
+                "name": "Smartphone Stand",
+                "category": "Accessories",
+                "price": 15.99,
+                "image": "https://images.pexels.com/photos/6373146/pexels-photo-6373146.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                "description": "Adjustable aluminum stand for smartphones and tablets."
+                },
+                {
+                "id": 5,
+                "name": "Yoga Mat",
+                "category": "Fitness",
+                "price": 25.99,
+                "image": "https://images.pexels.com/photos/2394051/pexels-photo-2394051.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                "description": "Non-slip, eco-friendly yoga mat with extra cushioning."
+                },
+                {
+                "id": 6,
+                "name": "Bluetooth Speaker",
+                "category": "Electronics",
+                "price": 79.99,
+                "image": "https://images.pexels.com/photos/1279365/pexels-photo-1279365.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                "description": "Portable Bluetooth speaker with deep bass and waterproof design."
+                },
+                {
+                "id": 7,
+                "name": "Stainless Steel Water Bottle",
+                "category": "Lifestyle",
+                "price": 19.99,
+                "image": "https://images.pexels.com/photos/9943322/pexels-photo-9943322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                "description": "Double-wall insulated stainless steel water bottle."
+                },
+                {
+                "id": 8,
+                "name": "Running Shoes",
+                "category": "Sports",
+                "price": 59.99,
+                "image": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                "description": "Lightweight running shoes with breathable fabric."
+                },
+                {
+                "id": 9,
+                "name": "Desk Lamp",
+                "category": "Home",
+                "price": 29.99,
+                "image": "https://images.pexels.com/photos/1112598/pexels-photo-1112598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                "description": "LED desk lamp with adjustable brightness levels."
+                },
+                {
+                "id": 10,
+                "name": "Electric Kettle",
+                "category": "Appliances",
+                "price": 34.99,
+                "image": "hhttps://images.pexels.com/photos/1921673/pexels-photo-1921673.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                "description": "Fast-boiling electric kettle with auto shut-off feature."
+                },
+                {
+                "id": 11,
+                "name": "Gaming Mouse",
+                "category": "Electronics",
+                "price": 39.99,
+                "image": "https://images.pexels.com/photos/2115256/pexels-photo-2115256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                "description": "Ergonomic gaming mouse with customizable buttons and RGB lighting."
+                },
+                {
+                "id": 12,
+                "name": "Travel Backpack",
+                "category": "Travel",
+                "price": 49.99,
+                "image": "https://images.pexels.com/photos/868097/pexels-photo-868097.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                "description": "Durable, water-resistant travel backpack with multiple compartments."
+                },
+                {
+                "id": 13,
+                "name": "Digital Alarm Clock",
+                "category": "Home",
+                "price": 24.99,
+                "image": "https://images.pexels.com/photos/923311/pexels-photo-923311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                "description": "LED digital alarm clock with snooze and USB charging ports."
+                },
+                {
+                "id": 14,
+                "name": "Wireless Keyboard",
+                "category": "Electronics",
+                "price": 29.99,
+                "image": "https://images.pexels.com/photos/399159/pexels-photo-399159.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                "description": "Slim wireless keyboard with silent typing and long battery life."
+                },
+                {
+                "id": 15,
+                "name": "Cookware Set",
+                "category": "Kitchen",
+                "price": 99.99,
+                "image": "https://images.pexels.com/photos/15245005/pexels-photo-15245005/free-photo-of-close-up-of-kitchenware.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                "description": "Non-stick cookware set, perfect for everyday cooking."
+                },
+                {
+                "id": 16,
+                "name": "Electric Toothbrush",
+                "category": "Personal Care",
+                "price": 59.99,
+                "image": "https://images.pexels.com/photos/3958092/pexels-photo-3958092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                "description": "Rechargeable electric toothbrush with multiple cleaning modes."
+                },
+                {
+                "id": 17,
+                "name": "Laptop Sleeve",
+                "category": "Accessories",
+                "price": 19.99,
+                "image": "https://images.pexels.com/photos/28028270/pexels-photo-28028270/free-photo-of-a-laptop-is-sitting-on-top-of-a-leather-case.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                "description": "Soft, padded laptop sleeve for extra protection on the go."
+                },
+                {
+                "id": 18,
+                "name": "LED Strip Lights",
+                "category": "Home Decor",
+                "price": 34.99,
+                "image": "https://images.pexels.com/photos/8108681/pexels-photo-8108681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                "description": "Customizable LED strip lights for ambient lighting."
+                },
+                {
+                "id": 19,
+                "name": "Noise-Cancelling Headphones",
+                "category": "Electronics",
+                "price": 129.99,
+                "image": "https://images.pexels.com/photos/5269735/pexels-photo-5269735.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                "description": "Over-ear headphones with active noise cancellation technology."
+                },
+                {
+                "id": 20,
+                "name": "Fitness Tracker",
+                "category": "Fitness",
+                "price": 69.99,
+                "image": "https://images.pexels.com/photos/4498483/pexels-photo-4498483.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                "description": "Water-resistant fitness tracker with heart rate monitoring."
+                },
+                {
+                "id": 21,
+                "name": "Standing Desk",
+                "category": "Furniture",
+                "price": 199.99,
+                "image": "https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                "description": "Adjustable standing desk for improved posture and productivity."
+                },
+                {
+                "id": 22,
+                "name": "Smart Thermostat",
+                "category": "Home Automation",
+                "price": 149.99,
+                "image": "https://images.pexels.com/photos/7616651/pexels-photo-7616651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                "description": "Smart thermostat for efficient home temperature control."
+                }
+            ]
+      
+}
