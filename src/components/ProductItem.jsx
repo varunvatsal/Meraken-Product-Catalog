@@ -2,9 +2,13 @@ import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
-
+import { useNavigate } from 'react-router-dom';
 const ProductItem = ({item}) => {
-  return (
+  
+    let navigate = useNavigate()
+    const query = new URLSearchParams(item).toString();
+
+    return (
     <>
       <Col>
         <Card border={item.id%2===0 ? 'primary' : 'success'} style={{ width: '18rem', height: '23rem'}}>
@@ -14,7 +18,7 @@ const ProductItem = ({item}) => {
             <Card.Text>
               {item.description}
             </Card.Text>
-            <Button variant="primary">Full Discription</Button>
+            <Button variant="outline-primary" onClick={() => {navigate(`/itemDescription?${query}`)}}>Description</Button>
           </Card.Body>
         </Card>
       </Col>
@@ -23,3 +27,4 @@ const ProductItem = ({item}) => {
 }
 
 export default ProductItem
+
