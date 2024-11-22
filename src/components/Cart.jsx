@@ -1,8 +1,8 @@
-import React, { useContext, useState } from 'react'
+import React, { Fragment, useContext, useState } from 'react'
 import Button from 'react-bootstrap/Button';
 import { useNavigate } from 'react-router-dom';
 import { cartContext } from '../App';
-
+import '../css/cart.module.css'
 
 const Cart = () => {
 
@@ -12,6 +12,7 @@ const Cart = () => {
   console.log(productsInCart)
   return (
     <>
+    <h1>CART</h1>
         <nav>
             <br />
             <div className="d-grid gap-2">
@@ -20,10 +21,35 @@ const Cart = () => {
               </Button>
             </div>
         </nav>
-
-        {productsInCart.map((val) => {
-          return <h1 key={val.id}>{val.name}</h1>
-        })}
+        <br />
+        <table  >
+          <thead>
+            <tr>
+              <th>NAME</th>
+              <th>CATEGORY</th>
+              <th>PRICE</th>
+              <th>IMAGE</th>
+              <th>DESCRIPTION</th>
+            </tr>
+          </thead>
+          <tbody>
+            {
+              productsInCart.map((val) => {
+                return (
+                  <Fragment key={val.id}>
+                    <tr>
+                      <td>{val.name}</td>
+                      <td>{val.category}</td>
+                      <td>{val.price}</td>
+                      <td><img src={val.image} alt={val.name} height="70px" width="70px" loading='lazy'/></td>
+                      <td>{val.description}</td>
+                    </tr>
+                  </Fragment>
+                )
+              })
+            }
+          </tbody>
+        </table>
 
     </>
   )

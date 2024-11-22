@@ -1,0 +1,14 @@
+table {
+    width: 100%; /* Make the table span the full width */
+    border: 2px solid #fff; /* Outer border around the table */
+    border-collapse: collapse; /* Merge borders for clean lines */
+  }
+  th, td {
+    border: 2px solid #fff; /* Add borders around cells */
+    padding: 10px; /* Add spacing inside cells */
+    text-align: center; /* Center-align content */
+  }
+
+  h1 {
+    text-align: center;
+}
