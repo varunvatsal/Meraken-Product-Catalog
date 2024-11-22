@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useContext, useState } from 'react'
 import Button from 'react-bootstrap/Button';
 import { useNavigate } from 'react-router-dom';
-const Cart = () => {
-    let navigate = useNavigate()
+import { cartContext } from '../App';
 
+
+const Cart = () => {
+
+  let navigate = useNavigate()
+  let value = useContext(cartContext)
+  let {productsInCart, setProductsInCart} = value
+  console.log(productsInCart)
   return (
     <>
         <nav>
@@ -14,6 +20,11 @@ const Cart = () => {
               </Button>
             </div>
         </nav>
+
+        {productsInCart.map((val) => {
+          return <h1 key={val.id}>{val.name}</h1>
+        })}
+
     </>
   )
 }

@@ -14,7 +14,7 @@ const ItemDescription = () => {
     image: searchParams.get("image"),
     description: searchParams.get("description")
   }
-  let {id, name, category, price, image, description} = product;
+  let {name, category, price, image, description} = product;
 
 
   return (
