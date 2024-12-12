@@ -1,12 +1,12 @@
 table {
-    width: 100%; /* Make the table span the full width */
-    border: 2px solid #fff; /* Outer border around the table */
-    border-collapse: collapse; /* Merge borders for clean lines */
+    width: 100%; 
+    border: 2px solid #fff; 
+    border-collapse: collapse; 
   }
   th, td {
-    border: 2px solid #fff; /* Add borders around cells */
-    padding: 10px; /* Add spacing inside cells */
-    text-align: center; /* Center-align content */
+    border: 2px solid #fff; 
+    padding: 10px; 
+    text-align: center; 
   }
 
   h1 {
