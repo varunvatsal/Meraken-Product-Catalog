@@ -19,7 +19,7 @@ const ProductCatalog = () => {
     let navigate = useNavigate()
 
     useEffect(() => {
-      fetch("https://run.mocky.io/v3/a7f83c41-4399-46dc-aff7-690ec7a3d486")
+      fetch("https://run.mocky.io/v3/ba0d6410-295f-4d6a-87e2-3b48221156c3")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
