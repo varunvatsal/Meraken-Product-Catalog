@@ -18,7 +18,7 @@ const ProductCatalog = () => {
     let navigate = useNavigate()
 
     useEffect(() => {
-      fetch("https://task-management-app-frontend-five.vercel.app/products/getProducts")
+      fetch("https://run.mocky.io/v3/7390da52-0192-4bf0-bf75-4888d84848c0")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
