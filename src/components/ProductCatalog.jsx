@@ -7,7 +7,6 @@ import style from '../css/productCatalog.module.css'
 import Row from 'react-bootstrap/Row';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 
 const ProductCatalog = () => {
@@ -19,7 +18,7 @@ const ProductCatalog = () => {
     let navigate = useNavigate()
 
     useEffect(() => {
-      fetch("https://run.mocky.io/v3/7390da52-0192-4bf0-bf75-4888d84848c0")
+      fetch("https://task-management-app-frontend-five.vercel.app/products/getProducts")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
