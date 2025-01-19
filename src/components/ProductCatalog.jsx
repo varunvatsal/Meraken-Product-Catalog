@@ -18,7 +18,7 @@ const ProductCatalog = () => {
     let navigate = useNavigate()
 
     useEffect(() => {
-      fetch("https://run.mocky.io/v3/7390da52-0192-4bf0-bf75-4888d84848c0")
+      fetch("https://run.mocky.io/v3/39f21ce4-bacd-4eea-b164-12a0ea884db2")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
@@ -48,7 +48,7 @@ const ProductCatalog = () => {
         })
     }
   return (
-    <>
+    <React.Fragment>
         <h1 className={style.heading}>PRODUCT CATALOG</h1>
         <Search product={{productList, setProductList}}/>
         <br />
@@ -89,7 +89,7 @@ const ProductCatalog = () => {
             </Row>
         }
 
-    </>
+    </React.Fragment>
   )
 }
 
